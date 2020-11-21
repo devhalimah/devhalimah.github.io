@@ -1,0 +1,330 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+body {
+	font-family: 'Raleway', sans-serif;
+	background-color: #f1f1f1;
+	width: 100%;
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+button {
+	cursor: pointer;
+	border: none;
+	outline: none;
+}
+
+button:hover {
+	opacity: 0.5;
+}
+
+nav a{
+	display: block;
+	background-color: #fff;
+	text-align: center;
+	font-size: 20px;
+	font-weight: 400;
+	padding: 20px !important;
+}
+
+nav a:first-child, header .form .bg-red {
+	color: white;
+	background-color: #f44336;
+	padding: 0.09px 10px;
+}
+
+nav a:last-child {
+	background-color: #f1f1f1;
+}
+
+nav a:last-child:hover {
+	background-color: lightgrey;
+}
+
+i {
+	margin-right: 3px;
+}
+
+.bed {
+	margin-right: 15px;
+}
+
+header {
+	position: relative;
+	width: 100%;
+}
+
+header .form-bg {
+	width: 100%;
+	height: 500px;
+}
+
+header .form {
+	position: absolute;
+	top: 7.5%;
+	left: 10%;
+	width: 80%;
+}
+
+header .form h1 {
+	font-weight: 400;
+}
+
+header .form .bed {
+	margin-left: 10px;
+	margin-right: 8px;
+}
+
+header .form .bg-white {
+	background: #fff;
+	padding: 20px;
+}
+
+label {
+	display: block;
+}
+
+input {
+	padding: 10px 20px;
+	width: calc(100% - 40px);
+	margin-bottom: 12px;
+	border: 1px solid grey;
+}
+
+input:hover {
+	border-color: goldenrod;
+}
+
+form button {
+	background: #616161;
+	color: #fff;
+	padding: 10px 25px;
+}
+
+.content {
+	padding: 20px;
+}
+
+.row button, .caro button {
+	background: #000;
+	color: #fff;
+	padding: 12px;
+	width: 100%;
+}
+
+.caro .card {
+	background-color: #fff;
+	margin-top: 20px;
+}
+
+.caro .card img {
+	width: 100%;
+	height: auto;
+}
+
+.caro .card .card-text {
+	padding: 0px 15px 15px 15px;
+}
+
+.caro .card .card-text h3 {
+	font-size: 20px;
+}
+
+.caro .card .card-text .price {
+	opacity: 0.6;
+	font-size: 18px;
+}
+
+.about {
+	margin: 40px 0px 20px 0px;
+}
+
+.map img {
+	width: 100%;
+	height: auto;
+	filter: grayscale(70%);
+	margin-bottom: 32px;
+}
+
+.info {
+	text-align: center;
+	font-size: 18px;
+	line-height: 1.5;
+}
+
+.info i {
+	color: red;
+}
+
+.demand {
+	background-color: #f44336;
+	color: #fff;
+	padding: 20px;
+	line-height: 1.7;
+	margin-top: 32px;
+}
+
+.demand i {
+	font-size: 30px;
+}
+
+.location {
+	padding: 20px 0px;
+}
+.location h2 {
+	font-weight: 500;
+}
+
+.slide .container {
+	position: relative;
+	margin-bottom: 10px;
+}
+
+.slide .container img {
+	width: 100%;
+	height: auto;
+}
+
+.text-white {
+	color: #fff;
+	position: absolute;
+	left: 15px;
+	bottom: 15px;
+}
+
+.subscribe {
+	background-color: #000;
+	color: #fff;
+	opacity: 0.6;
+	padding: 30px 20px;
+	margin: 32px 0px;
+}
+
+.subscribe:hover {
+	opacity: 1.0;
+}
+
+.subscribe:hover button {
+	background-color: red;
+}
+
+.subscribe h2 {
+	font-size: 30px;
+	font-weight: 400;
+}
+
+.subscribe button {
+	background-color: #f38981;
+	color: inherit;
+	padding: 10px 20px;
+}
+
+.rooms h2, .about h2,  .contact h2 {
+	font-weight: 500;
+}
+
+.contact form input {
+	padding: 20px;
+	width: calc(100% - 40px);
+	margin-bottom: 5px;
+}
+
+.contact form button {
+	background-color: #000;
+	color: #fff;
+	padding: 16px 20px;
+}
+
+.contact div {
+		line-height: 1.7;
+}
+
+.contact i {
+	color: red;
+	width: 30px;
+}
+
+footer {
+	background-color: #000;
+	color: #fff;
+	padding: 50px;
+	text-align: center;
+}
+
+footer h3 {
+	font-weight: 500;
+}
+
+footer p a {
+	text-decoration: underline;
+}
+
+footer p a:hover {
+	color: green;
+}
+
+footer i:hover {
+	opacity: 0.5;
+}
+
+/* MEDIA QUERIES */
+@media screen and (min-width:600px) {
+	nav {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		position: relative;
+		background: #fff;
+	}
+	nav a {
+		padding: 13px 20px !important;
+	}
+	nav a:last-child {
+		position: absolute;
+		right: 0;
+	}
+	header .form {
+		width: 50%;
+	    top: 18%;
+	    left: 2%;
+	}
+	.form-grid {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		grid-template-rows: repeat(2,1fr);
+		grid-gap: 15px;
+	}
+	.content .row {
+		display: grid;
+		grid-template-columns: repeat(5, 1fr);
+		grid-gap: 15px;
+	}
+	.caro {
+		display: flex;
+		flex-direction: row;
+	}
+	.caro .card:not(:last-child) {
+		margin-right: 20px;
+	}
+	.info {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		padding: 0px 50px;
+	}
+	.slide {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		grid-gap: 10px;
+	}
+	.grid {
+		display: inline-grid;
+		grid-template-columns: repeat(2, 1fr);
+		grid-template-rows: repeat(2, 1fr);
+		grid-column-gap: 15px;
+	}
+}
