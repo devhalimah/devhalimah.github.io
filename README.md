@@ -1,5 +1,7 @@
 # hotel-template
 
-A project from DSC FUTA.<br>
-Hotel Template created with HTML5 and CSS3<br>
+
+Hotel website template created with HTML5 and CSS3<br>
+Project assigned by DSC FUTA<br>
+Fully coded and implemented by <a href="https://github.com/devhalimah">devhalimah</a><br>
 Font used: Raleway
