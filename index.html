@@ -1,1 +1,335 @@
-<!DOCTYPE html><html lang="en"><head><title>Hotel Template</title><meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1" /><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" /><link rel="stylesheet" href="./css/index.css" /></head><body><nav>  <a href="#"><i class="fa fa-bed bed"></i>Logo</a>  <a href="#rooms">Rooms</a>  <a href="#about">About</a>  <a href="#contact">Contact</a>  <a href="#contact">Book Now</a></nav><!-- Header --><header>  <img class="form-bg" src="./images/hotel.jpg" alt="The Hotel">  <div class="form">    <div class="bg-red">      <h1><i class="fa fa-bed bed"></i> Hotel Name</h1>    </div>    <div class="bg-white">      <form>        <div class="form-grid">          <div>            <label><i class="fa fa-calendar-o"></i> Check In</label>            <input type="text" placeholder="DD MM YYYY" name="CheckIn" required>          </div>          <div>            <label><i class="fa fa-calendar-o"></i> Check Out</label>            <input type="text" placeholder="DD MM YYYY" name="CheckOut" required>          </div>          <div>            <label><i class="fa fa-male"></i> Adults</label>            <input type="number" value="1" min="1" max="6">          </div>          <div>            <label><i class="fa fa-child"></i> Kids</label>          <input type="number" value="0" name="Kids" min="0" max="6">          </div>        </div> <!-- END OF FORM GRID -->        <button type="submit"><i class="fa fa-search"></i> Search availability</button>      </form>    </div> <!-- bg white -->  </div> <!-- FORM --></header><!-- Page content --><div class="content">  <div id="rooms" class="rooms">    <h2>Rooms</h2>    <p>Make yourself at home is our slogan. We offer the best beds in the industry. Sleep well and rest well.</p>  </div>  <div class="row">    <div class="checkin">      <label><i class="fa fa-calendar-o"></i> Check In</label>      <input type="text" placeholder="DD MM YYYY">    </div>    <div class="checkout">      <label><i class="fa fa-calendar-o"></i> Check Out</label>      <input type="text" placeholder="DD MM YYYY">    </div>    <div class="adults">      <label><i class="fa fa-male"></i> Adults</label>      <input type="number" placeholder="1">    </div>    <div class="kids">      <label><i class="fa fa-child"></i> Kids</label>      <input type="number" placeholder="0">    </div>    <div class="search">      <label><i class="fa fa-search"></i> Search</label>      <button>Search</button>    </div>  </div>  <div class="caro">    <div class="card">      <img src="./images/room_single.jpg" alt="Norway">      <div class="card-text">        <h3>Single Room</h3>        <p class="price">From $99</p>        <p>Single bed</p>        <p>15m<sup>2</sup></p>        <p><i class="fa fa-bath fa-lg"></i> <i class="fa fa-phone fa-lg"></i> <i class="fa fa-wifi fa-lg"></i></p>        <button>Choose Room</button>      </div>    </div>    <div class="card">      <img src="./images/room_double.jpg" alt="Norway">      <div class="card-text">        <h3>Double Room</h3>        <p class="price">From $149</p>        <p>Queen-size bed</p>        <p>25m<sup>2</sup></p>        <p><i class="fa fa-bath fa-lg"></i> <i class="fa fa-phone fa-lg"></i> <i class="fa fa-wifi fa-lg"></i> <i class="fa fa-tv fa-lg"></i></p>        <button>Choose Room</button>      </div>    </div>    <div class="card">      <img src="./images/room_deluxe.jpg" alt="Norway">      <div class="card-text">        <h3>Deluxe Room</h3>        <p class="price">From $199</p>        <p>King-size bed</p>        <p>40m<sup>2</sup></p>        <p><i class="fa fa-bath fa-lg"></i> <i class="fa fa-phone fa-lg"></i> <i class="fa fa-wifi fa-lg"></i> <i class="fa fa-tv fa-lg"></i> <i class="fa fa-glass fa-lg"></i> <i class="fa fa-cutlery fa-lg"></i></p>        <button>Choose Room</button>      </div>    </div>  </div>  <div id="about">    <div class="about">      <h2>About</h2>      <p>Our hotel is one of a kind. It is truely amazing. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>    <p>We accept: <i class="fa fa-credit-card fa-lg"></i> <i class="fa fa-cc-mastercard fa-lg"></i> <i class="fa fa-cc-amex fa-lg"></i> <i class="fa fa-cc-cc-visa fa-lg"></i><i class="fa fa-cc-paypal fa-lg"></i></p>    </div>    <div class="map">      <!-- Image of location/map -->      <img src="./images/map.jpg">    </div>  </div>    <div class="info">    <div><i class="fa fa-map-marker"></i> 423 Some adr, Chicago, US</div>    <div><i class="fa fa-phone"></i> Phone: +00 151515</div>    <div><i class="fa fa-envelope"></i> Email: mail@mail.com</div>  </div>  <div class="demand">    <p><i class="fa fa-info"></i> On demand, we can offer playstation, babycall, children care, dog equipment, etc.</p>  </div>  <div class="location">    <h2>Our Hotels</h2>    <p>You can find our hotels anywhere in the world:</p>  </div>    <div class="slide">      <div class="container">        <img src="./images/cinqueterre.jpg" alt="Cinque Terre">        <span class="text-white">Cinque Terre</span>      </div>    <div class="grid">          <div class="container">            <img src="./images/newyork2.jpg" alt="New York">            <span class="text-white">New York</span>          </div>          <div class="container">            <img src="./images/sanfran.jpg" alt="San Francisco">            <span class="text-white">San Francisco</span>          </div>		            <div class="container">            <img src="./images/pisa.jpg" alt="Pisa">            <span class="text-white">Pisa</span>          </div>          <div class="container">            <img src="./images/paris.jpg" alt="Paris">            <span class="text-white">Paris</span>          </div>       </div>  </div>  <div class="subscribe">    <h2>Get the best offers first!</h2>    <p>Join our newsletter.</p>    <label>E-mail</label>    <input type="text" placeholder="Your Email address">    <button type="button">Subscribe</button>  </div>  <div class="contact" id="contact">    <h2>Contact</h2>    <p>If you have any questions, do not hesitate to ask them.</p>    <div><i class="fa fa-map-marker"></i> Chicago, US</div>    <div><i class="fa fa-phone"></i> Phone: +00 151515</div>    <div><i class="fa fa-envelope"> </i> Email: mail@mail.com</div>    <form>      <p><input type="text" placeholder="Name" required name="Name"></p>      <p><input type="text" placeholder="Email" required name="Email"></p>      <p><input type="text" placeholder="Message" required name="Message"></p>      <p><button type="submit">SEND MESSAGE</button></p>    </form>  </div><!-- End page content --></div><!-- Footer --><footer>  <h3>Find Us On</h3>  <div>    <i class="fa fa-facebook-official fa-lg"></i>    <i class="fa fa-instagram fa-lg"></i>    <i class="fa fa-snapchat fa-lg"></i>    <i class="fa fa-pinterest-p fa-lg"></i>    <i class="fa fa-twitter fa-lg"></i>    <i class="fa fa-linkedin fa-lg"></i>  </div>  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p></footer></body></html>
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<title>Hotel Template</title>
+
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+<link rel="stylesheet" href="./css/index.css" />
+
+</head>
+<body>
+<nav>
+  <a href="#"><i class="fa fa-bed bed"></i>Logo</a>
+  <a href="#rooms">Rooms</a>
+  <a href="#about">About</a>
+  <a href="#contact">Contact</a>
+  <a href="#contact">Book Now</a>
+</nav>
+
+<!-- Header -->
+<header>
+  <img class="form-bg" src="./images/hotel.jpg" alt="The Hotel">
+  <div class="form">
+    <div class="bg-red">
+      <h1><i class="fa fa-bed bed"></i> Hotel Name</h1>
+    </div>
+    <div class="bg-white">
+      <form>
+        <div class="form-grid">
+          <div>
+
+            <label><i class="fa fa-calendar-o"></i> Check In</label>
+
+            <input type="text" placeholder="DD MM YYYY" name="CheckIn" required>
+
+          </div>
+          <div>
+            <label><i class="fa fa-calendar-o"></i> Check Out</label>
+
+            <input type="text" placeholder="DD MM YYYY" name="CheckOut" required>
+          </div>
+          <div>
+            <label><i class="fa fa-male"></i> Adults</label>
+
+            <input type="number" value="1" min="1" max="6">
+          </div>
+          <div>
+            <label><i class="fa fa-child"></i> Kids</label>
+
+          <input type="number" value="0" name="Kids" min="0" max="6">
+          </div>
+        </div> <!-- END OF FORM GRID -->
+
+        <button type="submit"><i class="fa fa-search"></i> Search availability</button>
+      </form>
+
+    </div> <!-- bg white -->
+
+  </div> <!-- FORM -->
+
+</header>
+
+
+
+<!-- Page content -->
+<div class="content">
+  <div id="rooms" class="rooms">
+    <h2>Rooms</h2>
+
+    <p>Make yourself at home is our slogan. We offer the best beds in the industry. Sleep well and rest well.</p>
+  </div>
+
+  <div class="row">
+
+    <div class="checkin">
+      <label><i class="fa fa-calendar-o"></i> Check In</label>
+
+      <input type="text" placeholder="DD MM YYYY">
+    </div>
+
+    <div class="checkout">
+      <label><i class="fa fa-calendar-o"></i> Check Out</label>
+
+      <input type="text" placeholder="DD MM YYYY">
+    </div>
+
+    <div class="adults">
+      <label><i class="fa fa-male"></i> Adults</label>
+
+      <input type="number" placeholder="1">
+    </div>
+
+    <div class="kids">
+      <label><i class="fa fa-child"></i> Kids</label>
+
+      <input type="number" placeholder="0">
+    </div>
+
+    <div class="search">
+      <label><i class="fa fa-search"></i> Search</label>
+
+      <button>Search</button>
+    </div>
+
+  </div>
+
+
+
+  <div class="caro">
+
+    <div class="card">
+
+      <img src="./images/room_single.jpg" alt="Norway">
+
+      <div class="card-text">
+
+        <h3>Single Room</h3>
+
+        <p class="price">From $99</p>
+
+        <p>Single bed</p>
+
+        <p>15m<sup>2</sup></p>
+
+        <p><i class="fa fa-bath fa-lg"></i> <i class="fa fa-phone fa-lg"></i> <i class="fa fa-wifi fa-lg"></i></p>
+
+        <button>Choose Room</button>
+
+      </div>
+
+    </div>
+
+    <div class="card">
+
+      <img src="./images/room_double.jpg" alt="Norway">
+
+      <div class="card-text">
+
+        <h3>Double Room</h3>
+
+        <p class="price">From $149</p>
+
+        <p>Queen-size bed</p>
+
+        <p>25m<sup>2</sup></p>
+
+        <p><i class="fa fa-bath fa-lg"></i> <i class="fa fa-phone fa-lg"></i> <i class="fa fa-wifi fa-lg"></i> <i class="fa fa-tv fa-lg"></i></p>
+
+        <button>Choose Room</button>
+
+      </div>
+
+    </div>
+
+    <div class="card">
+
+      <img src="./images/room_deluxe.jpg" alt="Norway">
+
+      <div class="card-text">
+
+        <h3>Deluxe Room</h3>
+
+        <p class="price">From $199</p>
+
+        <p>King-size bed</p>
+
+        <p>40m<sup>2</sup></p>
+
+        <p><i class="fa fa-bath fa-lg"></i> <i class="fa fa-phone fa-lg"></i> <i class="fa fa-wifi fa-lg"></i> <i class="fa fa-tv fa-lg"></i> <i class="fa fa-glass fa-lg"></i> <i class="fa fa-cutlery fa-lg"></i></p>
+
+        <button>Choose Room</button>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <div id="about">
+
+    <div class="about">
+
+      <h2>About</h2>
+
+      <p>Our hotel is one of a kind. It is truely amazing. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+
+    <p>We accept: <i class="fa fa-credit-card fa-lg"></i> <i class="fa fa-cc-mastercard fa-lg"></i> <i class="fa fa-cc-amex fa-lg"></i> <i class="fa fa-cc-cc-visa fa-lg"></i><i class="fa fa-cc-paypal fa-lg"></i></p>
+
+    </div>
+
+    <div class="map">
+      <!-- Image of location/map -->
+      <img src="./images/map.jpg">
+    </div>
+
+  </div>
+
+  
+
+  <div class="info">
+
+    <div><i class="fa fa-map-marker"></i> 423 Some adr, Chicago, US</div>
+
+    <div><i class="fa fa-phone"></i> Phone: +00 151515</div>
+
+    <div><i class="fa fa-envelope"></i> Email: mail@mail.com</div>
+
+  </div>
+
+
+
+  <div class="demand">
+
+    <p><i class="fa fa-info"></i> On demand, we can offer playstation, babycall, children care, dog equipment, etc.</p>
+
+  </div>
+
+
+
+  <div class="location">
+
+    <h2>Our Hotels</h2>
+
+    <p>You can find our hotels anywhere in the world:</p>
+
+  </div>
+
+  
+
+  <div class="slide">
+      <div class="container">
+
+        <img src="./images/cinqueterre.jpg" alt="Cinque Terre">
+
+        <span class="text-white">Cinque Terre</span>
+
+      </div>
+
+    <div class="grid">
+          <div class="container">
+            <img src="./images/newyork2.jpg" alt="New York">
+
+            <span class="text-white">New York</span>
+          </div>
+
+          <div class="container">
+            <img src="./images/sanfran.jpg" alt="San Francisco">
+
+            <span class="text-white">San Francisco</span>
+          </div>
+		  
+          <div class="container">
+            <img src="./images/pisa.jpg" alt="Pisa">
+
+            <span class="text-white">Pisa</span>
+          </div>
+
+          <div class="container">
+            <img src="./images/paris.jpg" alt="Paris">
+
+            <span class="text-white">Paris</span>
+          </div>   
+    </div>
+  </div>
+
+
+
+  <div class="subscribe">
+
+    <h2>Get the best offers first!</h2>
+
+    <p>Join our newsletter.</p>
+
+    <label>E-mail</label>
+
+    <input type="text" placeholder="Your Email address">
+
+    <button type="button">Subscribe</button>
+
+  </div>
+
+
+
+  <div class="contact" id="contact">
+
+    <h2>Contact</h2>
+
+    <p>If you have any questions, do not hesitate to ask them.</p>
+
+    <div><i class="fa fa-map-marker"></i> Chicago, US</div>
+
+    <div><i class="fa fa-phone"></i> Phone: +00 151515</div>
+
+    <div><i class="fa fa-envelope"> </i> Email: mail@mail.com</div>
+
+    <form>
+
+      <p><input type="text" placeholder="Name" required name="Name"></p>
+
+      <p><input type="text" placeholder="Email" required name="Email"></p>
+
+      <p><input type="text" placeholder="Message" required name="Message"></p>
+
+      <p><button type="submit">SEND MESSAGE</button></p>
+
+    </form>
+
+  </div>
+<!-- End page content -->
+</div>
+
+<!-- Footer -->
+<footer>
+  <h3>Find Us On</h3>
+
+  <div>
+    <i class="fa fa-facebook-official fa-lg"></i>
+
+    <i class="fa fa-instagram fa-lg"></i>
+
+    <i class="fa fa-snapchat fa-lg"></i>
+
+    <i class="fa fa-pinterest-p fa-lg"></i>
+
+    <i class="fa fa-twitter fa-lg"></i>
+
+    <i class="fa fa-linkedin fa-lg"></i>
+  </div>
+</footer>
+</body>
+</html>
